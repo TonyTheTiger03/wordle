@@ -1,3 +1,5 @@
+
+package org.example;
 import java.util.Scanner;
 import java.util.HashMap;
 import java.util.ArrayList;
@@ -7,7 +9,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.io.IOException;
 
-public class Wordle {
+public class App {
     public static void main(String[] args) {
         String cword = "";
         String uword = "";
@@ -94,10 +96,10 @@ public class Wordle {
                         }
                     } 
                     System.out.println(display);  
-                    System.out.print("You have " + guessCount + " triess left"); 
+                    System.out.println("You have " + guessCount + " triess left"); 
                 }
                 else{
-                    System.out.print("You lose! the word was " + cword);
+                    System.out.println("You lose! the word was " + cword);
                     System.exit(0);
                 }
 
