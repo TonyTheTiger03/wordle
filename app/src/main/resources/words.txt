@@ -2081,7 +2081,7 @@ tooth
 topaz
 topic
 torch
-torso
+torse
 torus
 total
 totem
